@@ -20,14 +20,10 @@
   pageRef = "posts"
   weight = 20
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
 
 [[main]]
   name = "Experiências"
-  pageRef = "resume"
+  pageRef = "cv"
   weight = 40
 
 #[[subnavigation]]
@@ -57,12 +53,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+ [[footer]]
+   name = "Blog"
+   pageRef = "posts"
+   weight = 10
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 20

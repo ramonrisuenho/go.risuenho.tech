@@ -8,21 +8,21 @@ title = "Risuenho.tech"
   displayName = "PTBR"
   isoCode = "ptbr"
   rtl = false
-  dateFormat = "12 Abril 2025"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  dateFormat = "2025-04-12"
+  logo = "/img/logo-bg-white.png"
+  secondaryLogo = "/img/logo-bg.png"
+  description = "risuenho.tech"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
   name = "Ramon Risuenho"
   email = "ramon@risuenho.tech"
-  image = "profile2.jpg"
+  image = "/img/profile2.jpg"
   imageQuality = 96
   headline = "Viciado em Tecnologia"
   bio = "Trabalhando nisso..."
    links = [
-     { email = "mailto:ramon@risuenho.tech" },
+#     { email = "mailto:ramon@risuenho.tech" },
      { link = "https://risuenho.tech/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },

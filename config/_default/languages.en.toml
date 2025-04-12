@@ -1,29 +1,29 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+languageCode = "pt-br"
+languageName = "Portuguese"
 weight = 1
-title = "Blowfish"
+title = "Risuenho.tech"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "PTBR"
+  isoCode = "ptbr"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "12 Abril 2025"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
-#     { link = "https://link-to-some-website.com/" },
+[params.author]
+  name = "Ramon Risuenho"
+  email = "ramon@risuenho.tech"
+  image = "profile2.jpg"
+  imageQuality = 96
+  headline = "Viciado em Tecnologia"
+  bio = "Trabalhando nisso..."
+   links = [
+     { email = "mailto:ramon@risuenho.tech" },
+     { link = "https://risuenho.tech/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
 #     { blogger = "https://username.blogspot.com/" },
@@ -35,7 +35,7 @@ title = "Blowfish"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
+     { github = "https://github.com/ramonrisuenho" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -44,7 +44,7 @@ title = "Blowfish"
 #     { keybase = "https://keybase.io/username" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-#     { linkedin = "https://linkedin.com/in/username" },
+     { linkedin = "https://linkedin.com/in/ramonrisuenho" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
@@ -67,7 +67,7 @@ title = "Blowfish"
 #     { twitter = "https://twitter.com/username" },
 #     { x-twitter = "https://twitter.com/username" },
 #     { whatsapp = "https://wa.me/phone-number" },
-#     { youtube = "https://youtube.com/username" },
+     { youtube = "https://youtube.com/@ramonrisuenho" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-#   ]
+   ]

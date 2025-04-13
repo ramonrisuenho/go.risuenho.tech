@@ -125,6 +125,30 @@ layoutBackgroundHeaderSpace: false
             <td>Google Cloud</td>
         </tr>
         <tr>
+            <td><a href="https://www.linkedin.com/in/ramonrisuenho/details/certifications/" target="_blank">Oracle Cloud Infrastructure Foundations 2021 Certified Associate</a> </td>
+            <td>Oracle Cloud</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/ramonrisuenho/details/certifications/" target="_blank">Certified Cyber Security Professional</a> </td>
+            <td>Trend Micro</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/ramonrisuenho/details/certifications/" target="_blank">Certified Cyber Security Professional</a> </td>
+            <td>Trend Micro</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/ramonrisuenho/details/certifications/" target="_blank">Tenable Cloud Security Administrator</a> </td>
+            <td>Tenable</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/ramonrisuenho/details/certifications/" target="_blank">Tenable Cloud Security Sales Engineer</a> </td>
+            <td>Tenable</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/ramonrisuenho/details/certifications/" target="_blank">Deep Security Certified Professional Certificate</a> </td>
+            <td>Trend Micro</td>
+        </tr>
+        <tr>
             <td><a href="https://www.credly.com/badges/d38280cb-de3d-4947-af8a-22d90dde36f5/public_url" target="_blank">Fortinet Certified Solution Specialist Security Operations</a> </td>
             <td>Fortinet</td>
         </tr>

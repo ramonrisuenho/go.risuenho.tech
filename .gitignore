@@ -1,6 +1,7 @@
 #others
 node_modules
 .hugo_build.lock
+.gitignore
 
 # OS generated files
 .DS_Store
@@ -11,3 +12,5 @@ node_modules
 
 # Hugo
 
+#Obsidian
+content/.obsidian/

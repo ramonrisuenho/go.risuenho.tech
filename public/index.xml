@@ -5,7 +5,7 @@
     <link>http://example.org/</link>
     <description>Recent content on Risuenho.tech</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <language>en</language>
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
@@ -32,32 +32,22 @@
     </item>
     
     <item>
-      <title>Primeiro Post</title>
-      <link>http://example.org/posts/primeiro_post/</link>
-      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <title>Criando um ambiente Virtualizado para Hacking</title>
+      <link>http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://example.org/posts/primeiro_post/</guid>
-      <description>This is my first post on my site</description>
+      <guid>http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/</guid>
+      <description>Aprendendo as bases da Virtualização</description>
       
     </item>
     
     <item>
-      <title>Segundo Post</title>
-      <link>http://example.org/posts/segundo_post/</link>
-      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <title>SIEM &amp; SOAR - O Coração de um SOC</title>
+      <link>http://example.org/posts/2024-09-07-siem-soar-o-cora%C3%A7%C3%A3o-de-um-soc/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://example.org/posts/segundo_post/</guid>
-      <description>This is my second post on my site</description>
-      
-    </item>
-    
-    <item>
-      <title>Terceiro Post</title>
-      <link>http://example.org/posts/terceiro_post/</link>
-      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://example.org/posts/terceiro_post/</guid>
-      <description>This is my third post on my site</description>
+      <guid>http://example.org/posts/2024-09-07-siem-soar-o-cora%C3%A7%C3%A3o-de-um-soc/</guid>
+      <description>A arquitetura para operações de um SOC</description>
       
     </item>
     

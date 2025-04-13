@@ -5,18 +5,68 @@
     <link>http://example.org/tags/</link>
     <description>Recent content in Tags on Risuenho.tech</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <language>en</language>
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
-    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>teste</title>
-      <link>http://example.org/tags/teste/</link>
-      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <title>Estudos</title>
+      <link>http://example.org/tags/estudos/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://example.org/tags/teste/</guid>
+      <guid>http://example.org/tags/estudos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Laboratório</title>
+      <link>http://example.org/tags/laborat%C3%B3rio/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
+      <guid>http://example.org/tags/laborat%C3%B3rio/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Virtualização</title>
+      <link>http://example.org/tags/virtualiza%C3%A7%C3%A3o/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
+      <guid>http://example.org/tags/virtualiza%C3%A7%C3%A3o/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SIEM</title>
+      <link>http://example.org/tags/siem/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
+      <guid>http://example.org/tags/siem/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SOAR</title>
+      <link>http://example.org/tags/soar/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
+      <guid>http://example.org/tags/soar/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SOC</title>
+      <link>http://example.org/tags/soc/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
+      <guid>http://example.org/tags/soc/</guid>
       <description></description>
       
     </item>

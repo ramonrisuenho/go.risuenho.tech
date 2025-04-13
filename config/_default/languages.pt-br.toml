@@ -6,7 +6,7 @@ title = "Risuenho.tech"
 
 [params]
   displayName = "PTBR"
-  isoCode = "ptbr"
+  isoCode = "pt-br"
   rtl = false
   dateFormat = "2025-04-12"
   logo = "/img/logo-bg-white.png"
@@ -17,7 +17,7 @@ title = "Risuenho.tech"
 [params.author]
   name = "Ramon Risuenho"
   email = "ramon@risuenho.tech"
-  image = "/img/profile2.jpg"
+  image = "/img/profile1.png"
   imageQuality = 96
   headline = "Viciado em Tecnologia"
   bio = "Trabalhando nisso..."

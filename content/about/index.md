@@ -23,6 +23,11 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
-With over ten years of experience in product management, I have built and launched products across multiple domains and industries, from video streaming and eSIM connectivity to developer tools used by millions of users daily. I have a passion for understanding user needs, delivering value, and solving complex problems with innovative solutions.
+💻 Com bagagem em Cibersegurança, trago comigo expertise em proteger dados e sistemas contra as diversas ameaças do mundo digital. Ao longo da minha carreira, tive a oportunidade de auxiliar empresas de diversos portes a implementar medidas e projetos robustos de segurança, garantindo a confidencialidade, integridade e disponibilidade de suas informações.
 
-Currently, I am a principal product manager at Docker, where I focus on improving the lives of developers worldwide. I work closely with engineering teams, business stakeholders, and senior management to define and execute the product vision and strategy. I mentor other PMs, or people that want to get into Product and help them with my experience. Additionally, I am a startup advisor, helping early-stage startups with their product and go-to-market strategies. I enjoy writing and sharing my insights and learnings on product management and development, and I welcome any feedback or discussion on these topics.
+🔐 Acredito que a segurança da informação não deve ser um obstáculo à inovação. Ao contrário, ela deve ser um facilitador, permitindo que as empresas explorem todo o potencial de seus recursos e sistemas, sejam eles em nuvem ou não, sem se preocupar com riscos desnecessários.
+
+ - 🏆Experiência prática com implementação de medidas de segurança: possuo um histórico de sucesso em auxiliar empresas a proteger seus dados e sistemas.
+ - ☁️Especialista em Cloud Security: certificado em Google Cloud Platform, ajudo empresas a se protegerem e utilizarem a nuvem com segurança e confiabilidade.
+ - 🎙️Comunicador eficaz: explico conceitos de segurança de forma clara e objetiva, para que todos os envolvidos estejam cientes dos riscos e das medidas de proteção.
+ - 🦾Apaixonado por tecnologia e inovação: estou sempre buscando novas soluções para aprimorar a segurança da informação nas empresas.

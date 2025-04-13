@@ -1,12 +1,12 @@
 disabled = false
-languageCode = "pt-br"
-languageName = "Portuguese"
+languageCode = "en"
+languageName = "english"
 weight = 1
 title = "Risuenho.tech"
 
 [params]
-  displayName = "PTBR"
-  isoCode = "pt-br"
+  displayName = "EN"
+  isoCode = "en"
   rtl = false
   dateFormat = "2025-04-12"
   logo = "/img/logo-bg-white.png"

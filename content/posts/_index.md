@@ -1,6 +1,6 @@
 ---
-title: "Posts"
-date: 2025-04-12T18:44:37-03:00
+title: "Blog"
+date: 2025-04-12
 draft: false
 
 showDate : false

@@ -11,20 +11,20 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Sobre"
-  pageRef = "about"
+  name = "Blog"
+  pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Blog"
-  pageRef = "posts"
+  name = "Sobre"
+  pageRef = "about"
   weight = 20
 
-
-[[main]]
+[[subnavigation]]
   name = "Experiências"
   pageRef = "cv"
-  weight = 40
+  weight = 10
+
 
 #[[subnavigation]]
 #  name = "An interesting topic"

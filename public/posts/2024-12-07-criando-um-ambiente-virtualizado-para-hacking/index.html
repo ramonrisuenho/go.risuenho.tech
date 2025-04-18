@@ -80,7 +80,7 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Posts",
+    "articleSection": "Blog",
     "name": "Criando um ambiente Virtualizado para Hacking",
     "headline": "Criando um ambiente Virtualizado para Hacking",
     
@@ -100,7 +100,7 @@
     "keywords": ["Virtualização","Laboratório","Estudos"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "343"
+    "wordCount": "336"
   }]
   </script>
 
@@ -138,6 +138,9 @@
 
 
 
+
+
+<script defer src="/lib/typeit/typeit.umd.57f9bc6e047efc875cb4f2e9ca74c802de33638d2c3aff6d9b7eb3c7588c24649b6c3e51cd45f49c0ed0cf72aedbd694bf2d35f358a34076d63f9febabc0bd6f.js" integrity="sha512-V/m8bgR&#43;/IdctPLpynTIAt4zY40sOv9tm36zx1iMJGSbbD5RzUX0nA7Qz3Ku29aUvy0181ijQHbWP5/rq8C9bw=="></script>
 
 
 
@@ -201,20 +204,9 @@
             
             
             
-  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="Sobre Mim">
-        Sobre
-    </p>
-</a>
-
-
-
-            
-            
   <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="Posts">
+    <p class="text-base font-medium" title="Blog">
         Blog
     </p>
 </a>
@@ -223,10 +215,10 @@
 
             
             
-  <a href="/cv/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="Currículo">
-        Experiências
+    <p class="text-base font-medium" title="Sobre Mim">
+        Sobre
     </p>
 </a>
 
@@ -367,6 +359,21 @@
 
                     
   <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Blog">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
     <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="Sobre Mim">
@@ -380,34 +387,22 @@
 
                     
 
-                    
-  <li class="mt-1">
-    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="Posts">
-            Blog
-        </p>
-    </a>
-</li>
-
-
+                </ul>
+                
+                <hr>
+                <ul
+                    class="flex mt-4 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
 
 
                     
-
-                    
-  <li class="mt-1">
-    <a href="/cv/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="Currículo">
-            Experiências
-        </p>
-    </a>
-</li>
-
-
-
-
+                    <li class="mb-1">
+                        <a href="/cv/"  class="flex items-center">
+                            
+                            <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="Currículo">
+                                Experiências
+                            </p>
+                        </a>
+                    </li>
                     
 
                 </ul>
@@ -419,6 +414,19 @@
     </div>
 </div>
 
+
+<div class="main-menu flex pb-3 flex-col items-end justify-between md:justify-start space-x-3"  style="margin-top:-15px" >
+    <div class="hidden md:flex items-center space-x-5">
+        
+        <a href="/cv/"  class="flex items-center">
+            
+            <p class="text-xs font-light text-gray-500 hover:text-gray-900" title="Currículo">
+                Experiências
+            </p>
+        </a>
+        
+    </div>
+</div>
 
 
 
@@ -515,7 +523,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/posts/"
-      >Posts</a
+      >Blog</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -576,7 +584,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-12-07T00:00:00&#43;00:00">7070-00-127</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <time datetime="2024-12-07T00:00:00&#43;00:00">7 Dec 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -794,7 +802,6 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#por-que-criar-um-laboratório-virtualpor-que-criar-um-laboratorio-virtual">Por que criar um laboratório virtual?<a href="#por-que-criar-um-laboratorio-virtual"></a></a></li>
     <li><a href="#escolhendo-o-hypervisorescolhendo-o-hypervisor">Escolhendo o hypervisor<a href="#escolhendo-o-hypervisor"></a></a></li>
     <li><a href="#entendendo-as-redes-virtuailizadasentendendo-as-redes-virtuailizadas">Entendendo as Redes Virtuailizadas<a href="#entendendo-as-redes-virtuailizadas"></a></a></li>
     <li><a href="#escolhendo-os-sosescolhendo-os-sos">Escolhendo os S.Os<a href="#escolhendo-os-s.os"></a></a></li>
@@ -812,7 +819,6 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#por-que-criar-um-laboratório-virtualpor-que-criar-um-laboratorio-virtual">Por que criar um laboratório virtual?<a href="#por-que-criar-um-laboratorio-virtual"></a></a></li>
     <li><a href="#escolhendo-o-hypervisorescolhendo-o-hypervisor">Escolhendo o hypervisor<a href="#escolhendo-o-hypervisor"></a></a></li>
     <li><a href="#entendendo-as-redes-virtuailizadasentendendo-as-redes-virtuailizadas">Entendendo as Redes Virtuailizadas<a href="#entendendo-as-redes-virtuailizadas"></a></a></li>
     <li><a href="#escolhendo-os-sosescolhendo-os-sos">Escolhendo os S.Os<a href="#escolhendo-os-s.os"></a></a></li>
@@ -898,18 +904,21 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <h1 id="typeit-7de01c5c1058be2dd0bfae89a2e7213a"></h1>
 
-<h2 class="relative group">Por que criar um laboratório virtual?<a href="#por-que-criar-um-laboratorio-virtual"></a> 
-    <div id="por-que-criar-um-laborat%C3%B3rio-virtualpor-que-criar-um-laboratorio-virtual" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#por-que-criar-um-laborat%C3%B3rio-virtualpor-que-criar-um-laboratorio-virtual" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-7de01c5c1058be2dd0bfae89a2e7213a", {
+        strings: ["","Por que criar um laboratório virtual? ",""],
+        speed:  50 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
 <p>Essa prática é essencial para quem quer se aprofundar nos conceitos de segurança cibernética sem colocar em risco seus sistemas principais. Um laboratório virtualizado garante o <strong>isolamento</strong> entre os ambientes, simulando um cenário real de empresas que possuam &ldquo;produção&rdquo; e &ldquo;homologação&rdquo;.</p>
 <p>Além disso, a <strong>flexibilidade</strong> que um laboratório traz é ideal para os estudos de diferentes cenários, podendo ser utilizado para desenvolvimento, hacking, homologação e vários outros testes e implementações de cenários.</p>
 
@@ -1139,7 +1148,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-09-07T00:00:00&#43;00:00">7070-00-97</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  <time datetime="2024-10-07T00:00:00&#43;00:00">7 Oct 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -1263,7 +1272,7 @@
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
           <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/posts/"
-            title="Posts">
+            title="Blog">
             
             Blog
           </a>

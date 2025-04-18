@@ -1,6 +1,6 @@
 disabled = false
 languageCode = "en"
-languageName = "english"
+languageName = "English"
 weight = 1
 title = "Risuenho.tech"
 
@@ -8,7 +8,7 @@ title = "Risuenho.tech"
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2025-04-12"
+  dateFormat = "2 Jan 2006"
   logo = "/img/logo-bg-white.png"
   secondaryLogo = "/img/logo-bg.png"
   description = "risuenho.tech"

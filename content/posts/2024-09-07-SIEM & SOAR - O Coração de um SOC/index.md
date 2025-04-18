@@ -1,6 +1,6 @@
 ---
 title: SIEM & SOAR - O Coração de um SOC
-date: 2024-09-07
+date: 2024-10-07
 draft: false
 summary: A arquitetura para operações de um SOC
 tags:
@@ -8,12 +8,15 @@ tags:
   - SIEM
   - SOAR
 ---
+{{< typeit tag=h1 speed=50 >}}
+O que é SIEM e SOAR?
+{{< /typeit >}}
 
 o **SIEM** (Security Information and Event Management) e o **SOAR** (Security Orchestration, Automation and Response) são ferramentas essenciais para a detecção e resposta a incidentes de segurança.
 
 SIEM é uma solução que coleta, correlaciona e analisa logs de segurança de diversos dispositivos e aplicativos em uma organização permitindo identificar padrões de comportamento suspeito, detectar ameaças em tempo real e gerar alertas para a equipe de segurança.
 
-O SOAR complementa o SIEM, automatizando e orquestrando as respostas a incidentes de segurança. Enquanto o SIEM detecta as ameaças, o SOAR executa as ações necessárias para conter e remediar o problema, como bloquear IPs maliciosos, isolar sistemas comprometidos e gerar tickets para a equipe de TI.
+O **SOAR** complementa o SIEM, automatizando e orquestrando as respostas a incidentes de segurança. Enquanto o SIEM detecta as ameaças, o SOAR executa as ações necessárias para conter e remediar o problema, como bloquear IPs maliciosos, isolar sistemas comprometidos e gerar tickets para a equipe de TI.
 
 ## Arquitetura Básica
 

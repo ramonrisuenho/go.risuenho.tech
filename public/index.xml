@@ -9,12 +9,12 @@
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
-    <lastBuildDate>Sat, 12 Apr 2025 18:44:37 -0300</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Currículo</title>
       <link>http://example.org/cv/</link>
-      <pubDate>Sat, 12 Apr 2025 18:44:37 -0300</pubDate>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
       <guid>http://example.org/cv/</guid>
       <description>Experiências Empresa Cargos Datas Locais Locais NETSECURITY Cybersecurity Specialist 2023 - Present São Paulo, SP - BR Presencial NETSECURITY System Engineer 2022 - 2023 Remoto Remoto NEGINT Instructor 2022 - 2023 Remoto Remoto TREND MICRO CPITS Trainee 2022 - 2022 São Paulo, SP - BR Presencial WLAN INTERNET FIBRA Network Analyst 2021 - 2022 Belém, PA - BR Presencial SENAI CEDAM Cybersecurity Researcher &amp; Competitor 2019 - 2022 Belém, PA - BR Presencial Educação Instituição Grau Data ESTÁCIO Bacharel em Engenharia da Computação 2019 - 2022 Certificações Certificação Empresa Professional Cloud Security Engineer Certification Google Cloud Professional Cloud Architect Certification Google Cloud Associate Cloud Engineer Certification Google Cloud Oracle Cloud Infrastructure Foundations 2021 Certified Associate Oracle Cloud Certified Cyber Security Professional Trend Micro Certified Cyber Security Professional Trend Micro Tenable Cloud Security Administrator Tenable Tenable Cloud Security Sales Engineer Tenable Deep Security Certified Professional Certificate Trend Micro Fortinet Certified Solution Specialist Security Operations Fortinet Fortinet Security Operations 6.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Sobre Mim</title>
       <link>http://example.org/about/</link>
-      <pubDate>Sat, 12 Apr 2025 18:44:37 -0300</pubDate>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
       <guid>http://example.org/about/</guid>
       <description>💻 Com bagagem em Cibersegurança, trago comigo expertise em proteger dados e sistemas contra as diversas ameaças do mundo digital.</description>
@@ -44,7 +44,7 @@
     <item>
       <title>SIEM &amp; SOAR - O Coração de um SOC</title>
       <link>http://example.org/posts/2024-09-07-siem-soar-o-cora%C3%A7%C3%A3o-de-um-soc/</link>
-      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
       <guid>http://example.org/posts/2024-09-07-siem-soar-o-cora%C3%A7%C3%A3o-de-um-soc/</guid>
       <description>A arquitetura para operações de um SOC</description>

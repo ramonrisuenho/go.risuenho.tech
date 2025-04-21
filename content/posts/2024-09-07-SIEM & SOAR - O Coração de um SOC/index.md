@@ -9,9 +9,9 @@ tags:
   - SOAR
 ---
 
-{{< typeit tag=h1 speed=50 >}}
-O que é SIEM e SOAR?
-{{< /typeit >}}
+[comment]: {{< typeit tag=h1 speed=50 >}}
+[comment]: O que é SIEM e SOAR?
+[comment]: {{< /typeit >}} 
 
 o **SIEM** (Security Information and Event Management) e o **SOAR** (Security Orchestration, Automation and Response) são ferramentas essenciais para a detecção e resposta a incidentes de segurança.
 

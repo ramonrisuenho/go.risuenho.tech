@@ -8,10 +8,6 @@ tags:
   - Laboratório
   - Estudos
 ---
- 
-[comment]: {{< typeit tag=h1 speed=50 >}}
-[comment]: Por que criar um laboratório virtual? 
-[comment]: {{< /typeit >}}
 
 Essa prática é essencial para quem quer se aprofundar nos conceitos de segurança cibernética sem colocar em risco seus sistemas principais. Um laboratório virtualizado garante o **isolamento** entre os ambientes, simulando um cenário real de empresas que possuam "produção" e "homologação".
 

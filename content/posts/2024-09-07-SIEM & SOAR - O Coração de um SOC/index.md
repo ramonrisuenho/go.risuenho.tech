@@ -9,10 +9,6 @@ tags:
   - SOAR
 ---
 
-[comment]: {{< typeit tag=h1 speed=50 >}}
-[comment]: O que é SIEM e SOAR?
-[comment]: {{< /typeit >}} 
-
 o **SIEM** (Security Information and Event Management) e o **SOAR** (Security Orchestration, Automation and Response) são ferramentas essenciais para a detecção e resposta a incidentes de segurança.
 
 SIEM é uma solução que coleta, correlaciona e analisa logs de segurança de diversos dispositivos e aplicativos em uma organização permitindo identificar padrões de comportamento suspeito, detectar ameaças em tempo real e gerar alertas para a equipe de segurança.

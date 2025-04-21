@@ -8,6 +8,7 @@ tags:
   - SIEM
   - SOAR
 ---
+
 {{< typeit tag=h1 speed=50 >}}
 O que é SIEM e SOAR?
 {{< /typeit >}}

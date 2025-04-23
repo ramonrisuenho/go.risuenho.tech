@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Estudos on Risuenho.tech</title>
-    <link>http://example.org/tags/estudos/</link>
-    <description>Recent content in Estudos on Risuenho.tech</description>
+    <title>Vulnerabilidades on Risuenho.tech</title>
+    <link>http://example.org/tags/vulnerabilidades/</link>
+    <description>Recent content in Vulnerabilidades on Risuenho.tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
-    <lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/estudos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/vulnerabilidades/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Quem é MITRE e o dia a dia dele nas Operações de Segurança</title>
@@ -18,16 +18,6 @@
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
       <guid>http://example.org/posts/2025-04-22-quem-%C3%A9-mitre/</guid>
       <description>Quem é MITRE e o dia a dia dele nas Operações de Segurança</description>
-      
-    </item>
-    
-    <item>
-      <title>Criando um ambiente Virtualizado para Hacking</title>
-      <link>http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/</link>
-      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/</guid>
-      <description>Aprendendo as bases da Virtualização</description>
       
     </item>
     

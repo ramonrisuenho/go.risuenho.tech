@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://example.org/posts/2025-04-22-quem-%C3%A9-mitre/</loc>
+    <lastmod>2025-04-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2025-04-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://example.org/posts/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10,12 +22,6 @@
   </url>
   <url>
     <loc>http://example.org/cv/</loc>
-    <lastmod>2025-04-12T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.org/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

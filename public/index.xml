@@ -9,7 +9,17 @@
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
-    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quem é MITRE e o dia a dia dele nas Operações de Segurança</title>
+      <link>http://example.org/posts/2025-04-22-quem-%C3%A9-mitre/</link>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      <author>ramon@risuenho.tech (Ramon Risuenho)</author>
+      <guid>http://example.org/posts/2025-04-22-quem-%C3%A9-mitre/</guid>
+      <description>Quem é MITRE e o dia a dia dele nas Operações de Segurança</description>
+      
+    </item>
     
     <item>
       <title>Currículo</title>

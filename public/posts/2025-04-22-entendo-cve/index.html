@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Criando um ambiente Virtualizado para Hacking &middot; Risuenho.tech</title>
-  <meta name="title" content="Criando um ambiente Virtualizado para Hacking &middot; Risuenho.tech" />
+  <title>Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança &middot; Risuenho.tech</title>
+  <meta name="title" content="Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança &middot; Risuenho.tech" />
   
-  <meta name="description" content="Aprendendo as bases da Virtualização" />
-  <meta name="keywords" content="Virtualização, Laboratório, Estudos, " />
+  <meta name="description" content="Entendendo o que são CVEs e como utilizá-las no dia a dia" />
+  <meta name="keywords" content="Estudos, Vulnerabilidades, " />
   
   
-  <link rel="canonical" href="http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/" />
+  <link rel="canonical" href="http://example.org/posts/2025-04-22-entendo-cve/" />
   
   
   
@@ -64,16 +64,16 @@
   
   
   
-  <meta property="og:title" content="Criando um ambiente Virtualizado para Hacking" />
-<meta property="og:description" content="Aprendendo as bases da Virtualização" />
+  <meta property="og:title" content="Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança" />
+<meta property="og:description" content="a description" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-12-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-12-07T00:00:00+00:00" /><meta property="og:site_name" content="Risuenho.tech" />
+<meta property="og:url" content="http://example.org/posts/2025-04-22-entendo-cve/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-04-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-04-22T00:00:00+00:00" /><meta property="og:site_name" content="Risuenho.tech" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Criando um ambiente Virtualizado para Hacking"/>
-<meta name="twitter:description" content="Aprendendo as bases da Virtualização"/>
+<meta name="twitter:title" content="Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança"/>
+<meta name="twitter:description" content="a description"/>
 
   
   <script type="application/ld+json">
@@ -81,26 +81,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "Criando um ambiente Virtualizado para Hacking",
-    "headline": "Criando um ambiente Virtualizado para Hacking",
-    
-    "abstract": "Aprendendo as bases da Virtualização",
+    "name": "Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança",
+    "headline": "Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança",
+    "description": "a description",
+    "abstract": "Entendendo o que são CVEs e como utilizá-las no dia a dia",
     "inLanguage": "en",
-    "url" : "http:\/\/example.org\/posts\/2024-12-07-criando-um-ambiente-virtualizado-para-hacking\/",
+    "url" : "http:\/\/example.org\/posts\/2025-04-22-entendo-cve\/",
     "author" : {
       "@type": "Person",
       "name": "Ramon Risuenho"
     },
-    "copyrightYear": "2024",
-    "dateCreated": "2024-12-07T00:00:00\u002b00:00",
-    "datePublished": "2024-12-07T00:00:00\u002b00:00",
+    "copyrightYear": "2025",
+    "dateCreated": "2025-04-22T00:00:00\u002b00:00",
+    "datePublished": "2025-04-22T00:00:00\u002b00:00",
     
-    "dateModified": "2024-12-07T00:00:00\u002b00:00",
+    "dateModified": "2025-04-22T00:00:00\u002b00:00",
     
-    "keywords": ["Virtualização","Laboratório","Estudos"],
+    "keywords": ["Estudos","Vulnerabilidades"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "336"
+    "wordCount": "1169"
   }]
   </script>
 
@@ -141,6 +141,13 @@
 
 
 
+
+    
+    <script defer src="/lib/packery/packery.pkgd.min.js" integrity=""></script>
+
+    
+    
+    <script type="text/javascript" src="/js/shortcodes/gallery.min.9b4cb28f931ed922c26fb9b2510c2debb370f6a63305050c2af81740b2919883715e24efbbdf3a081496718ec751df3a72729d4d0bc71d6071297563a97ce1ee.js" integrity="sha512-m0yyj5Me2SLCb7myUQwt67Nw9qYzBQUMKvgXQLKRmINxXiTvu986CBSWcY7HUd86cnKdTQvHHWBxKXVjqXzh7g=="></script>
 
 
 
@@ -528,8 +535,8 @@
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/"
-      >Criando um ambiente Virtualizado para Hacking</a
+      href="/posts/2025-04-22-entendo-cve/"
+      >Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -538,7 +545,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Criando um ambiente Virtualizado para Hacking
+      Entendo o que são CVEs e o dia a dia delas nas Operações de Segurança
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -581,7 +588,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-12-07T00:00:00&#43;00:00">7 Dec 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <time datetime="2025-04-22T00:00:00&#43;00:00">22 Apr 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
   
 
   
@@ -618,27 +625,19 @@
   
   
   
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/virtualiza%C3%A7%C3%A3o/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Virtualização
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/laborat%C3%B3rio/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Laboratório
-  </span>
-</span>
-  </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/estudos/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Estudos
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/vulnerabilidades/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Vulnerabilidades
   </span>
 </span>
   </span>
@@ -799,10 +798,22 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#escolhendo-o-hypervisorescolhendo-o-hypervisor">Escolhendo o hypervisor<a href="#escolhendo-o-hypervisor"></a></a></li>
-    <li><a href="#entendendo-as-redes-virtuailizadasentendendo-as-redes-virtuailizadas">Entendendo as Redes Virtuailizadas<a href="#entendendo-as-redes-virtuailizadas"></a></a></li>
-    <li><a href="#escolhendo-os-sosescolhendo-os-sos">Escolhendo os S.Os<a href="#escolhendo-os-s.os"></a></a></li>
-    <li><a href="#estudando-ferramentastestando-as-ferramentas">Estudando ferramentas<a href="#testando-as-ferramentas"></a></a></li>
+    <li><a href="#mitre-na-segurança-cibernética">MITRE na Segurança Cibernética:</a>
+      <ul>
+        <li><a href="#cve-common-vulnerabilities-and-exposures">CVE (Common Vulnerabilities and Exposures)</a></li>
+        <li><a href="#cwe-common-weakness-enumeration">CWE (Common Weakness Enumeration)</a></li>
+        <li><a href="#attck-adversarial-tactics-techniques-and-common-knowledge">ATT&amp;CK (Adversarial Tactics, Techniques, and Common Knowledge)</a></li>
+        <li><a href="#d3fend-countermeasures">D3FEND Countermeasures</a></li>
+      </ul>
+    </li>
+    <li><a href="#como-usamos-essas-informações-no-dia-a-dia">Como usamos essas informações no dia a dia?</a>
+      <ul>
+        <li><a href="#tenable-nessus-scanner">Tenable Nessus Scanner</a></li>
+        <li><a href="#owasp-zap">OWASP ZAP</a></li>
+        <li><a href="#áreas-onde-o-d3fend-pode-influenciar">Áreas onde o D3FEND pode influenciar</a></li>
+      </ul>
+    </li>
+    <li><a href="#resumo">Resumo</a></li>
   </ul>
 </nav>
   </div>
@@ -816,10 +827,22 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#escolhendo-o-hypervisorescolhendo-o-hypervisor">Escolhendo o hypervisor<a href="#escolhendo-o-hypervisor"></a></a></li>
-    <li><a href="#entendendo-as-redes-virtuailizadasentendendo-as-redes-virtuailizadas">Entendendo as Redes Virtuailizadas<a href="#entendendo-as-redes-virtuailizadas"></a></a></li>
-    <li><a href="#escolhendo-os-sosescolhendo-os-sos">Escolhendo os S.Os<a href="#escolhendo-os-s.os"></a></a></li>
-    <li><a href="#estudando-ferramentastestando-as-ferramentas">Estudando ferramentas<a href="#testando-as-ferramentas"></a></a></li>
+    <li><a href="#mitre-na-segurança-cibernética">MITRE na Segurança Cibernética:</a>
+      <ul>
+        <li><a href="#cve-common-vulnerabilities-and-exposures">CVE (Common Vulnerabilities and Exposures)</a></li>
+        <li><a href="#cwe-common-weakness-enumeration">CWE (Common Weakness Enumeration)</a></li>
+        <li><a href="#attck-adversarial-tactics-techniques-and-common-knowledge">ATT&amp;CK (Adversarial Tactics, Techniques, and Common Knowledge)</a></li>
+        <li><a href="#d3fend-countermeasures">D3FEND Countermeasures</a></li>
+      </ul>
+    </li>
+    <li><a href="#como-usamos-essas-informações-no-dia-a-dia">Como usamos essas informações no dia a dia?</a>
+      <ul>
+        <li><a href="#tenable-nessus-scanner">Tenable Nessus Scanner</a></li>
+        <li><a href="#owasp-zap">OWASP ZAP</a></li>
+        <li><a href="#áreas-onde-o-d3fend-pode-influenciar">Áreas onde o D3FEND pode influenciar</a></li>
+      </ul>
+    </li>
+    <li><a href="#resumo">Resumo</a></li>
   </ul>
 </nav>
   </div>
@@ -901,83 +924,179 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>Essa prática é essencial para quem quer se aprofundar nos conceitos de segurança cibernética sem colocar em risco seus sistemas principais. Um laboratório virtualizado garante o <strong>isolamento</strong> entre os ambientes, simulando um cenário real de empresas que possuam &ldquo;produção&rdquo; e &ldquo;homologação&rdquo;.</p>
-<p>Além disso, a <strong>flexibilidade</strong> que um laboratório traz é ideal para os estudos de diferentes cenários, podendo ser utilizado para desenvolvimento, hacking, homologação e vários outros testes e implementações de cenários.</p>
+          
 
-
-<h2 class="relative group">Escolhendo o hypervisor<a href="#escolhendo-o-hypervisor"></a> 
-    <div id="escolhendo-o-hypervisorescolhendo-o-hypervisor" class="anchor"></div>
+<h1 class="relative group">MITRE Corporation 
+    <div id="mitre-corporation" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#escolhendo-o-hypervisorescolhendo-o-hypervisor" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#mitre-corporation" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-<p>Os dois principais softwares utilizados para estes cenários são: <a href="https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion" target="_blank"><em>VmWare</em></a> e <a href="https://www.virtualbox.org/" target="_blank"><em>VirtualBox</em></a><em>.</em> Ambos são softwares de virtualização categorizados como Hypervisors tipo 2, que utilizam de recursos compartilhados com o host para virtualizar os sistemas. O consumo de recursos precisam ser bem dimensionados para que a utilização do ambiente não comprometa o funcionamento do sistema principal.</p>
-<img src="hypervisor-arq.png"/>
+</h1>
+<p>A MITRE Corporation é uma organização americana sem fins lucrativos que opera Centros de Pesquisa e Desenvolvimento Financiados pelo Governo Federal dos Estados Unidos. Fundada em 1958, sua missão inicial era apoiar o desenvolvimento de sistemas de defesa aérea dos Estados Unidos. Ao longo dos anos, a MITRE expandiu seu escopo para abordar uma ampla gama de desafios complexos nos setores de aviação, defesa, saúde, segurança interna e, crucialmente, segurança cibernética.</p>
+<p>Com o crescimento da importância da tecnologia da informação, a MITRE se tornou uma figura central na área de segurança cibernética, trabalhando em estreita colaboração com agências governamentais e a indústria para enfrentar as crescentes ameaças digitais.</p>
 
 
-<h2 class="relative group">Entendendo as Redes Virtuailizadas<a href="#entendendo-as-redes-virtuailizadas"></a> 
-    <div id="entendendo-as-redes-virtuailizadasentendendo-as-redes-virtuailizadas" class="anchor"></div>
+<h2 class="relative group">MITRE na Segurança Cibernética: 
+    <div id="mitre-na-seguran%C3%A7a-cibern%C3%A9tica" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#entendendo-as-redes-virtuailizadasentendendo-as-redes-virtuailizadas" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#mitre-na-seguran%C3%A7a-cibern%C3%A9tica" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>É crucial entendermos o tráfego que passa a ser gerado quando trabalhamos com um ou mais sistemas virtualizados. Existem diferentes tipos de configuração que alteram o modo como a comunição <em>host</em> -&gt; <em>guest</em> funciona.</p>
+<p>A MITRE desenvolveu e mantém vários projetos cruciais que se tornaram padrões de facto na indústria de segurança cibernética. Suas principais contribuições incluem:</p>
+
+
+<h3 class="relative group">CVE (Common Vulnerabilities and Exposures) 
+    <div id="cve-common-vulnerabilities-and-exposures" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#cve-common-vulnerabilities-and-exposures" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>O CVE é um sistema de identificação, definição e catalogação de vulnerabilidades de segurança cibernética divulgadas publicamente. Cada vulnerabilidade recebe um identificador único (CVE ID).</p>
+<p>Isso fornece uma linguagem comum para discutir e referenciar vulnerabilidades, o que facilita a comunicação entre pesquisadores, fornecedores, usuários e ferramentas de segurança, permitindo uma coordenação mais eficaz na resposta a incidentes e na gestão de vulnerabilidades. É a base para muitos bancos de dados de vulnerabilidades, como o National Vulnerability Database (NVD).</p>
+
+
+<h3 class="relative group">CWE (Common Weakness Enumeration) 
+    <div id="cwe-common-weakness-enumeration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#cwe-common-weakness-enumeration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>O CWE é um sistema de classificação de tipos de fraquezas de segurança encontradas em softwares e hardwares. Ele organiza essas fraquezas em uma hierarquia, fornecendo um vocabulário comum para descrever as causas das vulnerabilidades.</p>
+<p>Enquanto o CVE se concentra em instâncias específicas de vulnerabilidades, o CWE oferece uma visão mais abstrata das fraquezas subjacentes que podem levar a essas vulnerabilidades. Isso ajuda desenvolvedores, arquitetos e analistas de segurança a entenderem as causas raízes dos problemas de segurança e a implementarem práticas de codificação e design mais seguras para prevenir futuras vulnerabilidades.</p>
+
+
+<h3 class="relative group">ATT&amp;CK (Adversarial Tactics, Techniques, and Common Knowledge) 
+    <div id="attck-adversarial-tactics-techniques-and-common-knowledge" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#attck-adversarial-tactics-techniques-and-common-knowledge" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>O ATT&amp;CK é uma base de conhecimento e modelo comportamental para descrever as táticas e técnicas que os adversários cibernéticos usam em diferentes fases de um ataque. Ele organiza essas táticas e técnicas em matrizes, fornecendo um quadro de referência para entender o comportamento do atacante.</p>
+<p>O ATT&amp;CK revolucionou a forma como as organizações entendem e se defendem contra ameaças cibernéticas. Ele permite que as equipes de segurança modelem ameaças, desenvolvam melhores detecções, realizem simulações de ataques (red teaming) e melhorem suas estratégias de defesa de forma proativa e informada pela inteligência de ameaças.</p>
+
+
+<h3 class="relative group">D3FEND Countermeasures 
+    <div id="d3fend-countermeasures" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#d3fend-countermeasures" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>O MITRE DEFEND é um framework que complementa o ATT&amp;CK, focando nas defesas cibernéticas. Ele fornece um modelo estruturado para entender e categorizar as contramedidas que podem ser usadas para mitigar as táticas e técnicas adversárias descritas no ATT&amp;CK.</p>
+<p>Enquanto o ATT&amp;CK ajuda a entender o &ldquo;lado do atacante&rdquo;, o DEFEND oferece um &ldquo;lado do defensor&rdquo; correspondente. Ele ajuda as organizações a planejar e implementar defesas mais eficazes, mapeando suas capacidades de segurança para as táticas e técnicas de ataque conhecidas. Isso permite uma abordagem mais estratégica e direcionada para aprimorar a postura de segurança.</p>
+
+
+<div id="gallery-9c5f63073d67fa35b1e582c4e4731259" class="gallery">
+  
+  <img src="gallery/01.png" class="grid-w33" />
+  <img src="gallery/02.jpg" class="grid-w33" />
+  <img src="gallery/03.png" class="grid-w33" />
+  <img src="gallery/04.png" class="grid-w33" />
+
+</div>
+
+
+<h2 class="relative group">Como usamos essas informações no dia a dia? 
+    <div id="como-usamos-essas-informa%C3%A7%C3%B5es-no-dia-a-dia" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#como-usamos-essas-informa%C3%A7%C3%B5es-no-dia-a-dia" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>No dia a dia, é comum ver dashboards com as Táticas e Técnicas do ATT&amp;CK, ou responder a incidentes utilizando os <em>exploits</em> mapeados pelo CVE, propor um aumento de maturidade comparando a infraestrutura atual com as medidas do D3FEND.</p>
+<p>Alguns exemplos podem ser facilmente notados quando olhamos para algumas ferramentas de mercado:</p>
+
+
+<h3 class="relative group">Tenable Nessus Scanner 
+    <div id="tenable-nessus-scanner" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#tenable-nessus-scanner" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Ao reportar uma vulnerabilidade, o Nessus geralmente inclui o CVE ID. Isso permite que os usuários pesquisem informações adicionais sobre a vulnerabilidade em bancos de dados como o National Vulnerability Database (NVD) ou na própria base de conhecimento da Tenable. Essas informações detalhadas podem incluir a descrição da vulnerabilidade, o impacto potencial, as versões afetadas e as possíveis soluções ou mitigações.</p>
+<p>O CVE muitas vezes está associado a uma pontuação de gravidade, como a do CVSS (Common Vulnerability Scoring System). O Nessus leva em consideração essas pontuações (e também possui seu próprio sistema de priorização, o VPR - Vulnerability Priority Rating) para ajudar os usuários a priorizar a correção das vulnerabilidades mais críticas. A presença de um CVE com alta gravidade geralmente indica uma vulnerabilidade que precisa de atenção imediata.</p>
+<img src="nessus.png" />
+<img src="nessus2.png" />
+
+
+<h3 class="relative group">OWASP ZAP 
+    <div id="owasp-zap" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#owasp-zap" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>OWASP ZAP (Zed Attack Proxy) é um poderoso scanner de segurança de aplicações web de código aberto. Embora seu foco principal seja a identificação ativa e passiva de vulnerabilidades através da análise do tráfego web, ele utiliza informações do CWE e alinha-se aos conceitos do ATT&amp;CK.</p>
+<p>Quando o OWASP ZAP identifica uma potencial vulnerabilidade, ele frequentemente tenta categorizá-la de acordo com o CWE. Isso fornece uma maneira padronizada de entender a fraqueza de software subjacente que levou à vulnerabilidade.</p>
+<img src="owasp_zap.jpg" />
+<img src="owasp_zap_report.png" />
+
+
+<h3 class="relative group">Áreas onde o D3FEND pode influenciar 
+    <div id="%C3%A1reas-onde-o-d3fend-pode-influenciar" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%C3%A1reas-onde-o-d3fend-pode-influenciar" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
 <ul>
-<li>
-<p><strong>NAT:</strong> Permite que a máquina virtual acesse a internet através da rede do seu computador host.</p>
-<img src="nat-network.png"/>
-</li>
-<li>
-<p><strong>Bridge:</strong> Conecta a máquina virtual diretamente à sua rede física, permitindo que outros dispositivos a vejam.</p>
-<img src="bridged-network.png"/>
-</li>
-<li>
-<p><strong>Host-only:</strong> Isola a máquina virtual da sua rede física, criando uma rede privada.</p>
-<img src="host-only-network.png"/>
-</li>
+<li><strong>Ferramentas de hardening e configuração de segurança:</strong> Aplicações open source focadas em fortalecer sistemas e aplicações podem começar a incorporar a terminologia e as categorias do D3FEND para descrever as técnicas de hardening implementadas. Por exemplo, uma ferramenta de configuração de firewall poderia referenciar as técnicas de &ldquo;Network Traffic Filtering&rdquo; do D3FEND.</li>
+<li><strong>Sistemas de detecção e resposta a intrusões (IDR/EDR):</strong> Projetos open source nesta área podem utilizar o D3FEND para classificar as capacidades de detecção e as ações de resposta que oferecem, alinhando-as com as táticas de &ldquo;Detect&rdquo;, &ldquo;Isolate&rdquo; e &ldquo;Evict&rdquo; do framework.</li>
+<li><strong>Plataformas de análise de segurança e SIEM:</strong> Ferramentas open source de coleta, análise e correlação de logs de segurança podem usar o D3FEND para descrever as contramedidas que podem ser implementadas com base nos eventos de segurança detectados.</li>
+<li><strong>Ferramentas de simulação de defesa (Purple Teaming):</strong> Projetos que visam simular cenários de ataque para testar defesas podem usar o D3FEND para planejar e descrever as ações defensivas que serão avaliadas.</li>
 </ul>
+<p>É importante notar que a adoção de um framework como o D3FEND leva tempo. À medida que o framework ganha mais reconhecimento e a comunidade compreende melhor seus benefícios para a defesa cibernética, é provável que mais aplicações comecem a incorporar seus conceitos e terminologia.</p>
 
 
-<h2 class="relative group">Escolhendo os S.Os<a href="#escolhendo-os-s.os"></a> 
-    <div id="escolhendo-os-sosescolhendo-os-sos" class="anchor"></div>
+<h2 class="relative group">Resumo 
+    <div id="resumo" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#escolhendo-os-sosescolhendo-os-sos" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#resumo" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Após a estrutura de rede, podemos começar com a instalação dos sistemas virtualizados. É comum utilizar tecnologias abertas ou open-source nestes casos, principalmente devido à flexibilidade do licenciamento.</p>
-<p><strong>Hacking:</strong> Alguns dos sistemas mais comuns para laboratórios de Cibersegurança são: <a href="https://www.kali.org/" target="_blank">Kali Linux</a>, <a href="https://parrotsec.org/" target="_blank">Parrot OS</a>.</p>
-<p><strong>Desenvolvimento:</strong> Podemos seguir com plataformas mais comuns de mercado, como: <a href="https://ubuntu.com/download" target="_blank">Ubuntu</a>, <a href="https://almalinux.org/pt/" target="_blank">AlmaLinux</a>, <a href="https://pop.system76.com/" target="_blank">PoP OS</a>, <a href="https://rockylinux.org/pt-BR/download" target="_blank">Rocky Linux</a>.</p>
-
-
-<h2 class="relative group">Estudando ferramentas<a href="#testando-as-ferramentas"></a> 
-    <div id="estudando-ferramentastestando-as-ferramentas" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#estudando-ferramentastestando-as-ferramentas" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Algumas das ferramentas mais utilizadas durante os cenários de testes são:</p>
-<p><strong>Nmap:</strong> Para varredura de portas e descoberta de hosts.</p>
-<p><strong>Metasploit:</strong> Framework para exploração de vulnerabilidades e desenvolvimento de exploits.</p>
-<p><strong>Wireshark:</strong> Para análise de pacotes de rede.</p>
-<p><strong>Burp Suite:</strong> Para testes de segurança em aplicações web.</p>
-<p><strong>John the Ripper:</strong> Para quebra de senhas.</p>
-<p><em>Entre outras</em></p>
+<p>Aprofundamos nosso conhecimento sobre a MITRE Corporation, a organização por trás de iniciativas chave como o CVE, CWE, ATT&amp;CK e o mais recente D3FEND. Entendemos o contexto histórico da MITRE e como cada um desses frameworks contribui para uma compreensão mais profunda das vulnerabilidades, fraquezas e táticas de ataque, além de fornecer um vocabulário para descrever as defesas.</p>
+<p>Exploramos como ferramentas de segurança amplamente utilizadas, como o Tenable Nessus scanner e o OWASP ZAP, integram as informações do CVE, CWE e ATT&amp;CK para identificar, categorizar e contextualizar as vulnerabilidades, auxiliando profissionais de segurança a protegerem seus sistemas e aplicações de forma mais eficaz.s</p>
+<p>E por falar em defesas cibernéticas&hellip; Como as organizações estão realmente implementando as estratégias de defesa baseadas nesses frameworks? Quais são os desafios e as melhores práticas na construção de uma fortaleza digital resiliente? E como o promissor framework D3FEND pode revolucionar a forma como pensamos e aplicamos a segurança defensiva no futuro?&hellip;</p>
 
           
           
@@ -995,7 +1114,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/&amp;title=Criando%20um%20ambiente%20Virtualizado%20para%20Hacking"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://example.org/posts/2025-04-22-entendo-cve/&amp;title=Entendo%20o%20que%20s%c3%a3o%20CVEs%20e%20o%20dia%20a%20dia%20delas%20nas%20Opera%c3%a7%c3%b5es%20de%20Seguran%c3%a7a"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -1014,7 +1133,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/&amp;text=Criando%20um%20ambiente%20Virtualizado%20para%20Hacking"
+      href="https://twitter.com/intent/tweet/?url=http://example.org/posts/2025-04-22-entendo-cve/&amp;text=Entendo%20o%20que%20s%c3%a3o%20CVEs%20e%20o%20dia%20a%20dia%20delas%20nas%20Opera%c3%a7%c3%b5es%20de%20Seguran%c3%a7a"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -1032,7 +1151,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/&amp;resubmit=true&amp;title=Criando%20um%20ambiente%20Virtualizado%20para%20Hacking"
+      href="https://api.whatsapp.com/send?text=http://example.org/posts/2025-04-22-entendo-cve/&amp;resubmit=true&amp;title=Entendo%20o%20que%20s%c3%a3o%20CVEs%20e%20o%20dia%20a%20dia%20delas%20nas%20Opera%c3%a7%c3%b5es%20de%20Seguran%c3%a7a"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -1051,7 +1170,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://example.org/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/&amp;resubmit=true&amp;title=Criando%20um%20ambiente%20Virtualizado%20para%20Hacking"
+      href="https://t.me/share/url?url=http://example.org/posts/2025-04-22-entendo-cve/&amp;resubmit=true&amp;title=Entendo%20o%20que%20s%c3%a3o%20CVEs%20e%20o%20dia%20a%20dia%20delas%20nas%20Opera%c3%a7%c3%b5es%20de%20Seguran%c3%a7a"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -1077,7 +1196,7 @@
   
   
 
-  <a href="/posts/2025-04-22-quem-%C3%A9-mitre/" class="min-w-full">
+  <a href="/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
@@ -1089,7 +1208,7 @@
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/2025-04-22-quem-%C3%A9-mitre/">Quem é MITRE e o dia a dia dele nas Operações de Segurança</div>
+          href="/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/">Criando um ambiente Virtualizado para Hacking</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -1130,7 +1249,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-04-22T00:00:00&#43;00:00">22 Apr 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+  <time datetime="2024-12-07T00:00:00&#43;00:00">7 Dec 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -1167,19 +1286,27 @@
   
   
   
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/virtualiza%C3%A7%C3%A3o/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Virtualização
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/laborat%C3%B3rio/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Laboratório
+  </span>
+</span>
+  </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/estudos/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Estudos
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/vulnerabilidades/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Vulnerabilidades
   </span>
 </span>
   </span>
@@ -1205,7 +1332,7 @@
   
   
 
-  <a href="/posts/2024-09-07-siem-soar-o-cora%C3%A7%C3%A3o-de-um-soc/" class="min-w-full">
+  <a href="/cv/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
@@ -1217,7 +1344,7 @@
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/2024-09-07-siem-soar-o-cora%C3%A7%C3%A3o-de-um-soc/">SIEM & SOAR - O Coração de um SOC</div>
+          href="/cv/">Currículo</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -1233,15 +1360,11 @@
 
 
 
-  
 
 
 
 
 
-
-
-  
 
 
 
@@ -1257,8 +1380,6 @@
 
 <div class="flex flex-row flex-wrap items-center">
   
-  
-  <time datetime="2024-10-07T00:00:00&#43;00:00">7 Oct 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -1283,6 +1404,77 @@
 
 
 
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/about/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/featured.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/about/">Sobre Mim</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+
+  
+  
+</div>
+
+
 <div class="flex flex-row flex-wrap items-center">
   
   
@@ -1295,35 +1487,10 @@
   
   
   
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/soc/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SOC
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/siem/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SIEM
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/soar/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    SOAR
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
 </div>
+
+
+
 
 
 
@@ -1349,8 +1516,8 @@
         
         
       <script>
-        var oid = "views_posts\/2024-12-07-Criando um ambiente Virtualizado para Hacking\/index.md"
-        var oid_likes = "likes_posts\/2024-12-07-Criando um ambiente Virtualizado para Hacking\/index.md"
+        var oid = "views_posts\/2025-04-22-Entendo-CVE\/index.md"
+        var oid_likes = "likes_posts\/2025-04-22-Entendo-CVE\/index.md"
       </script>
       
       

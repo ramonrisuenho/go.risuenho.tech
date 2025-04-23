@@ -22,27 +22,28 @@ O CVE é um sistema de identificação, definição e catalogação de vulnerabi
 
 Isso fornece uma linguagem comum para discutir e referenciar vulnerabilidades, o que facilita a comunicação entre pesquisadores, fornecedores, usuários e ferramentas de segurança, permitindo uma coordenação mais eficaz na resposta a incidentes e na gestão de vulnerabilidades. É a base para muitos bancos de dados de vulnerabilidades, como o National Vulnerability Database (NVD).
 
+<img src="gallery/01.png" class="grid-w33" />
+
 ### CWE (Common Weakness Enumeration)
 O CWE é um sistema de classificação de tipos de fraquezas de segurança encontradas em softwares e hardwares. Ele organiza essas fraquezas em uma hierarquia, fornecendo um vocabulário comum para descrever as causas das vulnerabilidades.
 
 Enquanto o CVE se concentra em instâncias específicas de vulnerabilidades, o CWE oferece uma visão mais abstrata das fraquezas subjacentes que podem levar a essas vulnerabilidades. Isso ajuda desenvolvedores, arquitetos e analistas de segurança a entenderem as causas raízes dos problemas de segurança e a implementarem práticas de codificação e design mais seguras para prevenir futuras vulnerabilidades.
+
+<img src="gallery/02.jpg" class="grid-w33" />
 
 ### ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)
 O ATT&CK é uma base de conhecimento e modelo comportamental para descrever as táticas e técnicas que os adversários cibernéticos usam em diferentes fases de um ataque. Ele organiza essas táticas e técnicas em matrizes, fornecendo um quadro de referência para entender o comportamento do atacante.
 
 O ATT&CK revolucionou a forma como as organizações entendem e se defendem contra ameaças cibernéticas. Ele permite que as equipes de segurança modelem ameaças, desenvolvam melhores detecções, realizem simulações de ataques (red teaming) e melhorem suas estratégias de defesa de forma proativa e informada pela inteligência de ameaças.
 
+<img src="gallery/03.png" class="grid-w33" />
+
 ### D3FEND Countermeasures
 O MITRE DEFEND é um framework que complementa o ATT&CK, focando nas defesas cibernéticas. Ele fornece um modelo estruturado para entender e categorizar as contramedidas que podem ser usadas para mitigar as táticas e técnicas adversárias descritas no ATT&CK.
 
 Enquanto o ATT&CK ajuda a entender o "lado do atacante", o DEFEND oferece um "lado do defensor" correspondente. Ele ajuda as organizações a planejar e implementar defesas mais eficazes, mapeando suas capacidades de segurança para as táticas e técnicas de ataque conhecidas. Isso permite uma abordagem mais estratégica e direcionada para aprimorar a postura de segurança.
 
-{{< gallery >}}
-  <img src="gallery/01.png" class="grid-w33" />
-  <img src="gallery/02.jpg" class="grid-w33" />
-  <img src="gallery/03.png" class="grid-w33" />
   <img src="gallery/04.png" class="grid-w33" />
-{{< /gallery >}}
 
 ## Como usamos essas informações no dia a dia?
 

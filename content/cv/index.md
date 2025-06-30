@@ -95,7 +95,7 @@ layoutBackgroundHeaderSpace: false
         <tr>
             <td><a href="https://www.linkedin.com/school/estacio/posts/?feedView=all" target="_blank">ESTÁCIO</a> </td>
             <td>Bacharel em Engenharia da Computação</td>
-            <td>2019 - 2022</td>
+            <td>2016 - 2021</td>
         </tr>
     </tbody>
 </table>

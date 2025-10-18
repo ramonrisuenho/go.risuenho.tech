@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Estudos on Risuenho.tech</title>
-    <link>http://localhost:1313/tags/estudos/</link>
+    <link>http://example.org/tags/estudos/</link>
     <description>Recent content in Estudos on Risuenho.tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
-    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/estudos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/estudos/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Testando a integração com o Gemini Code Assist e o N8N para fazer o post</title>
-      <link>http://localhost:1313/posts/2025-10-18-testando-com-o-gemini/</link>
+      <link>http://example.org/posts/testando-com-o-gemini/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://localhost:1313/posts/2025-10-18-testando-com-o-gemini/</guid>
+      <guid>http://example.org/posts/testando-com-o-gemini/</guid>
       <description>Testando a integração com o Gemini Code Assist e o N8N para fazer o post</description>
       
     </item>
     
     <item>
       <title>Quem é MITRE e o dia a dia dele nas Operações de Segurança</title>
-      <link>http://localhost:1313/posts/2025-04-22-quem-%C3%A9-mitre/</link>
+      <link>http://example.org/posts/quem-%C3%A9-mitre/</link>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://localhost:1313/posts/2025-04-22-quem-%C3%A9-mitre/</guid>
+      <guid>http://example.org/posts/quem-%C3%A9-mitre/</guid>
       <description>Quem é MITRE e o dia a dia dele nas Operações de Segurança</description>
       
     </item>
     
     <item>
       <title>Criando um ambiente Virtualizado para Hacking</title>
-      <link>http://localhost:1313/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/</link>
+      <link>http://example.org/posts/criando-um-ambiente-virtualizado-para-hacking/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://localhost:1313/posts/2024-12-07-criando-um-ambiente-virtualizado-para-hacking/</guid>
+      <guid>http://example.org/posts/criando-um-ambiente-virtualizado-para-hacking/</guid>
       <description>Aprendendo as bases da Virtualização</description>
       
     </item>

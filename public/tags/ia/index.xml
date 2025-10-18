@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IA on Risuenho.tech</title>
-    <link>http://localhost:1313/tags/ia/</link>
+    <link>http://example.org/tags/ia/</link>
     <description>Recent content in IA on Risuenho.tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ramon@risuenho.tech (Ramon Risuenho)</managingEditor>
     <webMaster>ramon@risuenho.tech (Ramon Risuenho)</webMaster>
     <copyright>© 2025 Ramon Risuenho</copyright>
-    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/ia/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Testando a integração com o Gemini Code Assist e o N8N para fazer o post</title>
-      <link>http://localhost:1313/posts/2025-10-18-testando-com-o-gemini/</link>
+      <link>http://example.org/posts/testando-com-o-gemini/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
       <author>ramon@risuenho.tech (Ramon Risuenho)</author>
-      <guid>http://localhost:1313/posts/2025-10-18-testando-com-o-gemini/</guid>
+      <guid>http://example.org/posts/testando-com-o-gemini/</guid>
       <description>Testando a integração com o Gemini Code Assist e o N8N para fazer o post</description>
       
     </item>
